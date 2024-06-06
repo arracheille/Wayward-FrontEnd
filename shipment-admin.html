@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wayward</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/bundle.css" />
+    <link rel="stylesheet" href="css/admin.css" />
+    <link rel="stylesheet" href="css/table-4.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <a href="" class="logo"><img src="img/Logo.png" alt="" /> Admin</a>
+        <nav class="navbar">
+          <a href="index.html">Log Out</a>
+          <div class="user-profile">
+            <p>Username</p>
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <section class="sidebar">
+      <div class="sidebar-content">
+        <ul>
+          <li>
+            <a href="admin.html"><i class="fa-solid fa-table"></i>Product</a>
+          </li>
+          <li>
+            <a href="user-admin.html"><i class="fa-solid fa-user"></i>Users</a>
+          </li>
+          <li>
+            <a href="transaction-admin.html"><i class="fa-solid fa-address-card"></i>Transaction</a>
+          </li>
+          <li>
+            <a href="shipment-admin.html"><i class="fa-solid fa-truck"></i>Shipment</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="admin">
+      <div class="admin-container">
+        <div class="admin-content">
+          <h3>Users</h3>
+        </div>
+        <table class="table-4">
+          <tr>
+            <th>Shipment ID</th>
+            <th>Transaction ID</th>
+            <th>Datetime</th>
+            <th>Actions</th>
+          </tr>
+          <tr>
+            <td>00001</td>
+            <td>00001</td>
+            <td>Date</td>
+            <td class="actions">
+              <button class="confirm-admin"><i class="fa-solid fa-check"></i></button>
+              <button class="cancel-admin"><i class="fa-solid fa-xmark"></i></button>
+            </td>
+          </tr>
+          <tr>
+            <td>00001</td>
+            <td>00001</td>
+            <td>Date</td>
+            <td class="actions">
+              <button class="confirm-admin"><i class="fa-solid fa-check"></i></button>
+              <button class="cancel-admin"><i class="fa-solid fa-xmark"></i></button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
